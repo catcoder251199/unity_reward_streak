@@ -1,0 +1,5 @@
+public static class PlayerPrefsKeys
+{
+    public const string DAILY_REWARDS_LAST_LOGGED_IN_TIME_KEY = "DAILY_REWARDS_LAST_LOGGED_IN_TIME_KEY";
+    public const string REWARD_STREAK_LAST_SHOWED_POPUP_KEY = "REWARD_STREAK_LAST_SHOWED_POPUP_KEY";
+}
