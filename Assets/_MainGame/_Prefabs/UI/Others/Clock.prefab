@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4767143943168861041}
   - component: {fileID: 576335101779499503}
   - component: {fileID: 8548606215302612295}
-  - component: {fileID: 8360069756505775508}
   m_Layer: 5
   m_Name: Clock
   m_TagString: Untagged
@@ -77,28 +76,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8360069756505775508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954103782263748312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c449a35fbc8e4934ac81239aab8eedd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteAtlas:
-    m_AssetGUID: 835555df628de714c8c0f882ebfc77fc
-    m_SubObjectName: icon_clock_1
-    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_EditorAssetChanged: 1
-  image: {fileID: 8548606215302612295}
-  shouldResetAlpha: 1
-  loadManual: 0
-  preserveAspect: 1
 --- !u!1 &5434330359960377806
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,7 +88,6 @@ GameObject:
   - component: {fileID: 3793539777187521825}
   - component: {fileID: 8016326950037550436}
   - component: {fileID: 6446080569353232324}
-  - component: {fileID: 9115105036189890187}
   m_Layer: 5
   m_Name: Tick
   m_TagString: Untagged
@@ -197,25 +173,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9115105036189890187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5434330359960377806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c449a35fbc8e4934ac81239aab8eedd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteAtlas:
-    m_AssetGUID: 835555df628de714c8c0f882ebfc77fc
-    m_SubObjectName: icon_clock_2
-    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_EditorAssetChanged: 1
-  image: {fileID: 8016326950037550436}
-  shouldResetAlpha: 1
-  loadManual: 0
-  preserveAspect: 1
