@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpecialRewardSlot
+  m_Controller: {fileID: 9100000, guid: c9eed06a74c87404fb97e2c2df6bf7b5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1a56be7c836d5084ebce4810e64ea86d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1a56be7c836d5084ebce4810e64ea86d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 97f3c41e8eab2bb49ad18c9bff5b9f22, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5dd084013dc6a404bbaa08a90d377d0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6b42364a76bbbee418d8eb48696f2b1e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f81a4d76af78cc747b60bfbf014f9a90, type: 2}

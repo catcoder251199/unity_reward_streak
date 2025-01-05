@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fff0d7da5beb9244f9a73872ff5d4daa
+  m_SerializeEntries:
+  - m_GUID: 465850a9f9ca3d345a1d27cd1de25ea2
+    m_Address: Assets/Vy/DailyLoginPrefab/Rewards/Sort.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81f96937d1a61454596b542448bbd643
+    m_Address: Assets/Vy/DailyLoginPrefab/Rewards/Gold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91b0fde3bb3119147b0451be821bf2c6
+    m_Address: Assets/Vy/DailyLoginPrefab/Rewards/Clear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f26f40f74c9042b40a2746b87a527013
+    m_Address: Assets/Vy/DailyLoginPrefab/Rewards/Refresh.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b45ae0781833a7543aa421192d59fabd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9feb467143063a24c831f93698b7edde, type: 2}
+    - {fileID: 11400000, guid: e9b13a3518c52d24cb57bc69c327c411, type: 2}
