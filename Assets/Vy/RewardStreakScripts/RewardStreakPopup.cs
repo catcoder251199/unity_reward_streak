@@ -53,7 +53,7 @@ namespace RewardStreak
             if (rewardStreakSystem == null)
             {
                 PrintLogError("rewardStreakSystem is null");
-                return;
+                //return; TODO: uncomment this line
             }
 
             this.rewardStreakSystem = rewardStreakSystem;
@@ -70,6 +70,7 @@ namespace RewardStreak
 
         private void InitializeContent()
         {
+            return;
             InitializeItems(freeItemList, rewardStreakSystem.Config.FreeRewards);
             InitializeItems(adsItemList, rewardStreakSystem.Config.AdsRewards);
         }

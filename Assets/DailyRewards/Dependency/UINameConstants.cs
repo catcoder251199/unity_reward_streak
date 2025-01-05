@@ -5,4 +5,5 @@ using UnityEngine;
 public static class UINameConstants
 {
     public const string PopupDailyRewards = "DailyLogin";
+    public const string PopupRewardStreak = "RewardStreak";
 }

@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PopupNames:
   - DailyLogin
+  - RewardStreak
   Popups:
   - {fileID: 11400000, guid: b86a0580f6e01b24593a20c5aec2ff15, type: 2}
+  - {fileID: 11400000, guid: ddb603111f02ffe4088cbd101c6f9956, type: 2}
